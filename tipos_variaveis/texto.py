@@ -6,3 +6,6 @@ Braun"""
 
 numero_completo_quebra = "Paulo \
 Braun"
+
+nome = "Paulo"
+sobrenome = "Braun"
