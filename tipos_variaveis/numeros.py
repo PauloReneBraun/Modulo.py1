@@ -8,3 +8,4 @@ print("Real com ponto flutuante = ", numero_real)
 
 # type()
 print("Tipo da variavel interiro = ", type(numero_inteiro))
+print("Tipo da variavel real = ", type(numero_real))
