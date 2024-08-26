@@ -12,3 +12,4 @@ sobrenome = "Braun"
 
 # Formatação
 print("nome_completo(1° forma):", nome_completo)
+print("nome_completo(2° forma):" + nome_completo)
