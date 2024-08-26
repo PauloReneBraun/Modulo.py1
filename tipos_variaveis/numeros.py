@@ -13,3 +13,7 @@ print("Tipo da variavel real = ", type(numero_real))
 # soma + 
 soma = 1 + 1
 print("1 + 1=", soma)
+
+# subtracao 
+subtracao = 1 -1 
+print("1 - 1=", subtracao)
