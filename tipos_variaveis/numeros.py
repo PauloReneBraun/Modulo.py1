@@ -27,3 +27,4 @@ print("3 X 3 =", multiplicacao)
 divisao = 8 / 2 
 print("8 / 2 =", divisao)
 print("Tipo da variavel do resultado da divisao = ", type(divisao))
+print("Valor Inteiro  = ", int(divisao))
