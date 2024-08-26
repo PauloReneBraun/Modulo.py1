@@ -9,3 +9,7 @@ print("Real com ponto flutuante = ", numero_real)
 # type()
 print("Tipo da variavel interiro = ", type(numero_inteiro))
 print("Tipo da variavel real = ", type(numero_real))
+
+# soma + 
+soma = 1 + 1
+print("1 + 1=", soma)
