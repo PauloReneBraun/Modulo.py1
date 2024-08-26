@@ -33,3 +33,8 @@ print("Valor Inteiro  = ", int(divisao))
 
 # float()
 print("Valor Float  = ", float(divisao))
+
+# Modulo % 
+modulo = 5 % 2 
+print("Modulo = ", modulo)
+
