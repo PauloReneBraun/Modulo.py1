@@ -9,3 +9,6 @@ Braun"
 
 nome = "Paulo"
 sobrenome = "Braun"
+
+# Formatação
+print("nome_completo(1° forma):", nome_completo)
