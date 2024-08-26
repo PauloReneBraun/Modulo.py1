@@ -5,3 +5,6 @@ print("Inteiro = ", numero_inteiro)
 # Real com ponto flutuante 
 numero_real = 5.17
 print("Real com ponto flutuante = ", numero_real)
+
+# type()
+print("Tipo da variavel interiro = ", type(numero_inteiro))
