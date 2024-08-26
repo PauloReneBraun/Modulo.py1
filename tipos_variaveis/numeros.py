@@ -19,6 +19,10 @@ subtracao = 1 -1
 print("1 - 1 =", subtracao)
 
 
-# multiplicacao 
+# multiplicacao *
 multiplicacao = 3 * 3 
 print("3 X 3 =", multiplicacao)
+
+# divisao / 
+divisao = 8 / 2 
+print("8 / 2 =", divisao)
