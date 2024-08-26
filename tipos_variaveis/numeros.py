@@ -38,3 +38,4 @@ print("Valor Float  = ", float(divisao))
 modulo = 5 % 2 
 print("Modulo = ", modulo)
 
+ 
