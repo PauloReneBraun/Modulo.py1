@@ -7,3 +7,4 @@ print("Minha lista de exemplo", minha_lista)
 # Exibindo a lista 
 print("minha lista[0]:",minha_lista[0])
 print("minha lista[5]:",minha_lista[5])
+print("minha lista[1:7]:",minha_lista[1:7])
