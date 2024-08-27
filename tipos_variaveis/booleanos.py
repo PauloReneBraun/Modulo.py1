@@ -31,3 +31,6 @@ if True or False:
 
 if False or False:
   print("Bloco OR não vai ser executado")
+
+if True or True:
+  print("Bloco OR vai ser executado")
