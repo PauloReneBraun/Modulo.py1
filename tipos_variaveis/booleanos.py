@@ -19,3 +19,6 @@ if True and True:
 
 if True and False:
   print("Bloco não será executado")
+
+if False and False:
+  print("Bloco não será executado")
