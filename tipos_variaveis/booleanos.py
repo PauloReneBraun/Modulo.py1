@@ -22,3 +22,9 @@ if True and False:
 
 if False and False:
   print("Bloco não será executado")
+
+
+# OR
+
+if True or False:
+  print("Bloco OR vai ser executado")
