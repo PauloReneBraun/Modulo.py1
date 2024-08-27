@@ -13,3 +13,6 @@ else:
   
   
   #Operadores lógicos : and e or 
+
+if True and True: 
+  print("bloco será executado")
