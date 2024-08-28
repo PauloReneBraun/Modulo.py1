@@ -4,4 +4,7 @@ pessoa = {"nome": "Mateus", "idade": 20, "cidade": "Curitiba"}
 #exibindo o dicionario 
 print("Meu dicionário de exemplo:", pessoa)
 
-# Acessando valor 
+# Acessando valores por chave 
+print("Nome :" , pessoa["nome"])
+print("Idade :" , pessoa["idade"])
+print("Cidade :" , pessoa["cidade"])
