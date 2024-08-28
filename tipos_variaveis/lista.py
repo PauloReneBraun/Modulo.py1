@@ -5,7 +5,7 @@ minha_lista = [1, 2, 3, 4, 5, "OW", True, False]
 print("Minha lista de exemplo", minha_lista)
 
 # Exibindo a lista 
-minha_lista[0] = "Python"
+#minha_lista[0] = "Python"
 print("minha lista[0]:",minha_lista)
 
 print("minha lista[0]:",minha_lista[0])
@@ -37,3 +37,6 @@ print("Após pop(3):", minha_lista)
 minha_lista.remove(True)
 print("Após remove(True):", minha_lista)
 
+#Método sort
+minha_lista.sort
+print("Após sort():", minha_lista)
