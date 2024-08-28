@@ -8,3 +8,6 @@ print("Meu dicionário de exemplo:", pessoa)
 print("Nome :" , pessoa["nome"])
 print("Idade :" , pessoa["idade"])
 print("Cidade :" , pessoa["cidade"])
+
+pessoa["sobrenome"] = "Correia"
+print("Sobrenome :" , pessoa["sobrenome"])
