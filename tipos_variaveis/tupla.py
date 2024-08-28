@@ -13,4 +13,4 @@ contagem = minha_tupla.count(2)
 print("Quantidade de vezes que o elemento 2 aparece:", contagem)
 
 indice = minha_tupla.index(3)
-print("Indice da primeira ocorrência do elemento 3:", indice)
+print("Indice da primeira ocorrência do elemento 3:", indice )
