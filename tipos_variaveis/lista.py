@@ -13,3 +13,9 @@ print("minha lista[5]:",minha_lista[5])
 print("minha lista[1:7]:",minha_lista[1:7])
 print("minha lista[:]:",minha_lista[:5])
 print("minha lista[2:]:",minha_lista[2:])
+
+#Método de lista 
+
+#Método append(): Adiciona um elemento no final da lista 
+minha_lista.append(6)
+print("Após append(6):", minha_lista)
