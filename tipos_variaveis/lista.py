@@ -31,4 +31,9 @@ print("Após insert(2, 10):", minha_lista)
 #Método pop
 elemento_removido = minha_lista.pop(3)
 print("Elelmento removido:", elemento_removido)
-print("Após pop(3)")
+print("Após pop(3):", minha_lista)
+
+#Método Remove 
+minha_lista.remove(True)
+print("Após remove(True):", minha_lista)
+
