@@ -27,3 +27,8 @@ print("Indice do elemento 6:", indice)
 #Método insert: Insere um elelmento ao final da lista
 minha_lista.insert(2, 10)
 print("Após insert(2, 10):", minha_lista)
+
+#Método pop
+elemento_removido = minha_lista.pop(3)
+print("Elelmento removido:", elemento_removido)
+print("Após pop(3)")
