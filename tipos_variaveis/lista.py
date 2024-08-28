@@ -19,3 +19,7 @@ print("minha lista[2:]:",minha_lista[2:])
 #Método append(): Adiciona um elemento no final da lista 
 minha_lista.append(6)
 print("Após append(6):", minha_lista)
+
+#Método index 
+indice = minha_lista.index(6)
+print("Indice do elemento 6:", indice)
