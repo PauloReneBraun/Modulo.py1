@@ -14,3 +14,7 @@ print("Sobrenome :" , pessoa["sobrenome"])
 
 pessoa["idade"] = 20
 print("Idade atualizada:", pessoa["idade"])
+
+# Removendo um par
+del pessoa["sobrenome"]
+print("Meu dicionário de exemplo:", pessoa)
