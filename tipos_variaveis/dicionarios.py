@@ -1,5 +1,5 @@
 #Criando um dicionário de exemplo 
-pessoa = {"nome": "Mateus", "idade": 20, "cidade": "Curitiba"}
+pessoa = {"nome": "Mateus", "idade": 19, "cidade": "Curitiba"}
 
 #exibindo o dicionario 
 print("Meu dicionário de exemplo:", pessoa)
@@ -11,3 +11,6 @@ print("Cidade :" , pessoa["cidade"])
 
 pessoa["sobrenome"] = "Correia"
 print("Sobrenome :" , pessoa["sobrenome"])
+
+pessoa["idade"] = 20
+print("Idade atualizada:", pessoa["idade"])
