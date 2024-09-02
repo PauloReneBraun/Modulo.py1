@@ -16,3 +16,7 @@ for chave in pessoa.keys():
 print("For utilizando dicionario - valores")
 for valor in pessoa.values():
    print(valor)
+
+print("For utilizando dicionario - items")
+for chave, valor in pessoa.items():
+   print(f"{chave}: {valor}")
