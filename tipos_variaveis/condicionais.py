@@ -18,3 +18,7 @@ if idade <= 18:
 
 if idade != 10:
   print("Você não tem 10 anos")
+
+  mensagem = "Pode tirar a carteira de habilitação" if idade >= 18 else "Você não pode dirigir"
+
+  print(mensagem)
