@@ -11,3 +11,6 @@ if idade == 20:
 
 if idade <= 18: 
   print("Você é menor d idade")
+
+if idade != 10:
+  print("Você não tem 10 anos")
