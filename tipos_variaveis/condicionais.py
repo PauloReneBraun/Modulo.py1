@@ -8,3 +8,6 @@ if idade >= 18:
 
 if idade == 20:
   print("Você tem 20 anos")
+
+if idade <= 18: 
+  print("Você é menor d idade")
