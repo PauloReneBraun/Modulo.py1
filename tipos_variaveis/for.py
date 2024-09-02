@@ -12,3 +12,7 @@ pessoa = {"nome": "Juca", "idade": 70, "cidade": "Curitiba"}
 print("For utilizando dicionario - chaves")
 for chave in pessoa.keys():
    print(chave)
+
+print("For utilizando dicionario - valores")
+for valor in pessoa.values():
+   print(valor)
