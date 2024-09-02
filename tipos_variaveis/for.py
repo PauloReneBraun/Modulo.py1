@@ -7,3 +7,8 @@ print("For utilizando tupla")
 tupla = (2, 3, 4, 5, 6)
 for elemento in tupla:
     print(elemento)
+
+pessoa = {"nome": "Juca", "idade": 70, "cidade": "Curitiba"}
+print("For utilizando dicionario - chaves")
+for chave in pessoa.keys():
+   print(chave)
