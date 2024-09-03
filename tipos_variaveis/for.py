@@ -38,3 +38,6 @@ for indice in range(0, len(lista)):
    else:
       lista[indice] = 0 
 print(lista)
+
+# enumerate()
+lista_enumarate = ["D", "E", "F"]
