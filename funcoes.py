@@ -8,3 +8,7 @@ print("\n Chamando a função saudacao:")
 def quadrado(numero):
   resultado = numero ** 2
   return resultado
+
+print("\n Chamando função quadrado:")
+resultado_quadrado = quadrado(5)
+print("Resultado da funcao quadrado:", resultado_quadrado)
