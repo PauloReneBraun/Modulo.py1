@@ -6,3 +6,5 @@ while True:
   print("4 Completar tarefa")
   print("5. Deletar tarefa completas")
   print("6. Sair")
+
+  escolha = input("Digite a sua escolha: ")
