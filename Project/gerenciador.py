@@ -11,3 +11,5 @@ while True:
 
   if escolha == "6":
     break
+
+print("Programa Finalizado")
