@@ -43,3 +43,5 @@ print(lista)
 lista_enumarate = ["D", "E", "F"]
 for indice, valor in enumerate(lista_enumarate):
    print(f"{indice}: {valor}")
+   if indice == 1:
+      print("Indice 1")
