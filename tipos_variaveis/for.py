@@ -35,3 +35,6 @@ for indice in range(0, len(lista)):
    print("Elemento:", lista[indice])
    if indice == 3:
       lista[indice] = 5
+   else:
+      lista[indice] = 0 
+print(lista)
