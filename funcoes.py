@@ -12,3 +12,8 @@ def quadrado(numero):
 print("\n Chamando função quadrado:")
 resultado_quadrado = quadrado(5)
 print("Resultado da funcao quadrado:", resultado_quadrado)
+
+# Funcao com multiplos parametos 
+def soma(numero1, numero2):
+  resultado = numero1 + numero2
+  return resultado
