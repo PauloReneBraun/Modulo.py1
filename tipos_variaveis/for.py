@@ -27,3 +27,9 @@ for chave, valor in pessoa.items():
 print("\n Utilizando a função range()")
 for numero in range(5):
    print("Numero:", numero)
+
+print("\n Utilizando a função range() com len()")
+lista = [1, 3, 4, 5, 6]
+for indice in range(0, len(lista)):
+   print("Indice:", indice)
+   print("Elemento:", lista[indice])
