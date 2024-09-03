@@ -19,5 +19,7 @@ def soma(numero1, numero2):
   return resultado
 
 print("\n Chamando a função soma:")
-resultado_soma = soma(20, 50)
-print("A soma do numero 20 e numero 50 é", resultado_soma)
+numero1 = 25
+numero2 = 30
+resultado_soma = soma(numero1, numero2)
+print("A soma do numero %s e numero %s é %s"% (numero1, numero2, resultado_soma))
