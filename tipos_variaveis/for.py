@@ -20,3 +20,10 @@ for valor in pessoa.values():
 print("For utilizando dicionario - items")
 for chave, valor in pessoa.items():
    print(f"{chave}: {valor}")
+
+# range(): Intervalo numérico
+# [0, 1,2,3,4,5,6,7,8,9]
+
+print("\n Utilizando a função range()")
+for numero in range(5):
+   print("Numero:", numero)
