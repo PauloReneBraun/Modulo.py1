@@ -33,3 +33,5 @@ lista = [1, 3, 4, 5, 6]
 for indice in range(0, len(lista)):
    print("Indice:", indice)
    print("Elemento:", lista[indice])
+   if indice == 3:
+      lista[indice] = 5
