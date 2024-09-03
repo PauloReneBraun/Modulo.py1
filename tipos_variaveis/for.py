@@ -41,3 +41,4 @@ print(lista)
 
 # enumerate()
 lista_enumarate = ["D", "E", "F"]
+for indice, valor in enumerate()
