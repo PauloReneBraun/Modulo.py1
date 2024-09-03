@@ -8,3 +8,5 @@ while True:
   print("6. Sair")
 
   escolha = input("Digite a sua escolha: ")
+
+  if escolha == "6":
