@@ -10,3 +10,4 @@ while True:
   escolha = input("Digite a sua escolha: ")
 
   if escolha == "6":
+    break
