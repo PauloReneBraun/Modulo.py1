@@ -1,4 +1,5 @@
 def adicionar_tarefa(nome_tarefa, tarefas):
+  tarefas.append(nome_tarefa)
   print("Adicionando tarefa")
 
 tarefas = []
