@@ -7,6 +7,7 @@ def adicionar_tarefa(nome_tarefa, tarefas):
 
   tarefas.append(nome_tarefa)
   print(f"Tarefa {nome_tarefa} foi Adicionando ")
+  return
 
 tarefas = []
 
@@ -20,6 +21,10 @@ while True:
   print("6. Sair")
 
   escolha = input("Digite a sua escolha: ")
+
+  if escolha == "1":
+    nome_tarefa = input("Digite o nome da tarefa: ")
+    adicionar_tarefa(nome_tarefa, tarefas)
 
   if escolha == "6":
     break
