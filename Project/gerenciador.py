@@ -1,4 +1,10 @@
 def adicionar_tarefa(nome_tarefa, tarefas):
+
+  # TAREFA: NOME DA TAREFA
+  # COMPLETADA: indica se a tarefa foi completada ou não
+
+  tarefa = { "tarefa": nome_tarefa, "completada": False }
+
   tarefas.append(nome_tarefa)
   print("Adicionando tarefa")
 
