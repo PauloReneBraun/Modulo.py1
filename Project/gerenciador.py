@@ -1,3 +1,6 @@
+def adicionar_tarefa():
+  print("Adicionando tarefa")
+
 while True:
   print("\nMenu do Gerenciador de tarefas:")
   print("1. Adicionar tarefa")
