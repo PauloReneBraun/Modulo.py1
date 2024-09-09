@@ -6,7 +6,7 @@ def adicionar_tarefa(nome_tarefa, tarefas):
   tarefa = { "tarefa": nome_tarefa, "completada": False }
 
   tarefas.append(nome_tarefa)
-  print("Adicionando tarefa")
+  print(f"Tarefa {nome_tarefa} foi Adicionando ")
 
 tarefas = []
 
