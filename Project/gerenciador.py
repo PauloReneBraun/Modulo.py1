@@ -1,4 +1,4 @@
-def adicionar_tarefa(nome_tarefa, tarefas):
+def adicionar_tarefa(tarefas, nome_tarefa="tarefa padrão"):
 
   # TAREFA: NOME DA TAREFA
   # COMPLETADA: indica se a tarefa foi completada ou não
@@ -24,7 +24,7 @@ while True:
 
   if escolha == "1":
     nome_tarefa = input("Digite o nome da tarefa: ")
-    adicionar_tarefa(nome_tarefa, tarefas)
+    adicionar_tarefa(tarefas, nome_tarefa =nome_tarefa)
 
   if escolha == "6":
     break
