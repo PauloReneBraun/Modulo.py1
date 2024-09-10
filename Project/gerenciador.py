@@ -31,7 +31,10 @@ while True:
   if escolha == "1":
     nome_tarefa = input("Digite o nome da tarefa: ")
     adicionar_tarefa(tarefas, nome_tarefa =nome_tarefa)
-
+  elif escolha == "2":
+    ver_tarefas(tarefas)
+  elif escolha == "3":
+    ver_tarefas(tarefas)
   if escolha == "6":
     break
 
