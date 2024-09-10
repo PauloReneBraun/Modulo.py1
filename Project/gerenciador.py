@@ -9,6 +9,12 @@ def adicionar_tarefa(tarefas, nome_tarefa="tarefa padrão"):
   print(f"Tarefa {nome_tarefa} foi Adicionando ")
   return
 
+def atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
+  tarefas[indice_tarefa]["tarefa"] = novo_nome_tarefa
+  print(f"Tarefa {indice_tarefa} foi atualizada para {novo_nome_tarefa}")
+  return
+
+
 tarefas = []
 
 while True:
