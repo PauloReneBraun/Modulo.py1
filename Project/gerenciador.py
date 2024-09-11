@@ -10,6 +10,9 @@ def adicionar_tarefa(tarefas, nome_tarefa="tarefa padrão"):
   return
 
 def atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
+  if int(indice_tarefa) > len(tarefas):
+    print("Tarefa não encontrada")
+    return
   indice_tarefa_ajustado = int(indice_tarefa) - 1  
   tarefas[indice_tarefa]["tarefa"] = novo_nome_tarefa
   print(f"Tarefa {indice_tarefa} foi atualizada para {novo_nome_tarefa}")
