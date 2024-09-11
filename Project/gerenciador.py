@@ -10,6 +10,7 @@ def adicionar_tarefa(tarefas, nome_tarefa="tarefa padrão"):
   return
 
 def atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
+  indice_tarefa_ajustado = indice_tarefa - 1  
   tarefas[indice_tarefa]["tarefa"] = novo_nome_tarefa
   print(f"Tarefa {indice_tarefa} foi atualizada para {novo_nome_tarefa}")
   return
