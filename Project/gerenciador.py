@@ -18,6 +18,12 @@ def atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
   print(f"Tarefa {indice_tarefa} foi atualizada para {novo_nome_tarefa}")
   return
 
+def ver_tarefas(tarefas):
+  print("\nTarefas:")
+  for indice, tarefa in enumerate(tarefas):
+    print(f"{indice + 1}. {tarefa['tarefa']} - {'completada' if tarefa['completada'] else 'não completada'}")
+  return
+
 
 tarefas = []
 
