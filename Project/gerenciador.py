@@ -21,6 +21,7 @@ def atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
 def ver_tarefas(tarefas):
   print("\nTarefas:")
   for indice, tarefa in enumerate(tarefas):
+    status = "✓" if tarefa["completada"] else ""
     print(f"{indice + 1}. {tarefa['tarefa']} - {'completada' if tarefa['completada'] else 'não completada'}")
   return
 
