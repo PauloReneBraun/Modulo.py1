@@ -27,16 +27,11 @@ def ver_tarefas(tarefas):
     print(f"{indice + 1}. {tarefa['tarefa']} - {'completada' if tarefa['completada'] else 'não completada'}")
   return
 
-  def completar_tarefa(tarefas, indice_tarefa):
+def completar_tarefa(tarefas, indice_tarefa):
     if int(indice_tarefa) > len(tarefas):
       print("Tarefa não encontrada")
       return
-    indice_tarefa_ajustado = int(indice_tarefa) - 1  
-    if indice_tarefa_ajustado < 0 and indice_tarefa_ajustado >= len(tarefas):
-      print("Tarefa não encontrada")
-    tarefas[indice_tarefa_ajustado]["completada"] = True
-    print(f"Tarefa {indice_tarefa} foi completada")
-    return
+   
 
 
 tarefas = []
@@ -64,6 +59,8 @@ while True:
   elif escolha == "4":
     ver_tarefas(tarefas)
     indice_tarefa = int(input("Digite o índice da tarefa que deseja completar: "))
+    completar_tarefa(tarefas, indice_tarefa)
+    
     novo_nome_tarefa = input("Digite o novo nome da tarefa: ")
     atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa)
   if escolha == "6":
