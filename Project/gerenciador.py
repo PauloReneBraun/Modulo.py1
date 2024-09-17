@@ -27,6 +27,17 @@ def ver_tarefas(tarefas):
     print(f"{indice + 1}. {tarefa['tarefa']} - {'completada' if tarefa['completada'] else 'não completada'}")
   return
 
+  def completar_tarefa(tarefas, indice_tarefa):
+    if int(indice_tarefa) > len(tarefas):
+      print("Tarefa não encontrada")
+      return
+    indice_tarefa_ajustado = int(indice_tarefa) - 1  
+    if indice_tarefa_ajustado < 0 and indice_tarefa_ajustado >= len(tarefas):
+      print("Tarefa não encontrada")
+    tarefas[indice_tarefa_ajustado]["completada"] = True
+    print(f"Tarefa {indice_tarefa} foi completada")
+    return
+
 
 tarefas = []
 
