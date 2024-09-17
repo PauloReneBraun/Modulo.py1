@@ -60,6 +60,10 @@ while True:
   elif escolha == "3":
     ver_tarefas(tarefas)
     indice_tarefa = int(input("Digite o índice da tarefa que deseja atualizar: "))
+
+  elif escolha == "4":
+    ver_tarefas(tarefas)
+    indice_tarefa = int(input("Digite o índice da tarefa que deseja completar: "))
     novo_nome_tarefa = input("Digite o novo nome da tarefa: ")
     atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa)
   if escolha == "6":
