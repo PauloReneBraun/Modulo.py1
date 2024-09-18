@@ -38,6 +38,7 @@ def deletar_tarefas_completadas(tarefas):
   print("Tarefas completadas foram deletadas")
   for tarefa in tarefas:
     if tarefa["completada"]:
+      tarefas.remove(tarefa)
   return
 
 tarefas = []
