@@ -35,10 +35,10 @@ def completar_tarefa(tarefas, indice_tarefa):
       return
    
 def deletar_tarefas_completadas(tarefas):
-  print("Tarefas completadas foram deletadas")
   for tarefa in tarefas:
     if tarefa["completada"]:
       tarefas.remove(tarefa)
+  print("Tarefas completadas foram deletadas")
   return
 
 tarefas = []
