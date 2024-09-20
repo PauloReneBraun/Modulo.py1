@@ -5,6 +5,7 @@ try:
   print(f"resultado: {resultado}")
 except ValueError as e:
     print(f"Erro: {e}")
+    raise ValueError("Erro: {e}")
 except ZeroDivisionError as e:
     print(f"Erro: {e}")
 except Exception as e:
