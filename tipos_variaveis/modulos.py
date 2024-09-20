@@ -8,3 +8,4 @@ print("\nExemplo de importação de um módulo personalizado:")
 import meu_modulo
 
 mensagem = meu_modulo.saudacao("Mundo")
+resultado_dobro = meu_modulo.dobro(5)
