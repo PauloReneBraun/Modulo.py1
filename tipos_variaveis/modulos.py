@@ -3,3 +3,5 @@ from math import sqrt
 
 raiz_quadrada = sqrt(16)
 print(raiz_quadrada)
+
+print("\nExemplo de importação de um módulo personalizado:")
