@@ -5,3 +5,4 @@ raiz_quadrada = sqrt(16)
 print(raiz_quadrada)
 
 print("\nExemplo de importação de um módulo personalizado:")
+import meu_modulo
