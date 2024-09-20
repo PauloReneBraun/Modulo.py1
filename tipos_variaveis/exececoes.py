@@ -10,3 +10,7 @@ except ZeroDivisionError as e:
     print(f"Erro: {e}")
 except Exception as e:
   print("Erro: {e}")
+else:
+  print("Tudo ocorreu bem")
+finally:
+  print("Finalizando o programa")
