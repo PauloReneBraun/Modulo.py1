@@ -1,5 +1,5 @@
 print("Exemplo de importação de um módulo padrão:")
-import math
+from math import sqrt
 
-raiz_quadrada = math.sqrt(16)
+raiz_quadrada = sqrt(16)
 print(raiz_quadrada)
